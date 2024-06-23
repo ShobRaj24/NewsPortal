@@ -1,4 +1,5 @@
 // variables
+const reqOptions = { 'mode': 'cors', headers: { 'Access-Control-Allow-Origin': '*' } };
 const generalBtn = document.getElementById("genral");
 const businessBtn = document.getElementById("business");
 const sportsBtn = document.getElementById("sport");
